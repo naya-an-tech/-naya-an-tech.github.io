@@ -1,0 +1,79 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Gicheon Seong(Ayaan) Blog",
+  "home_page_url": "https://kichunsung.github.io",
+  "feed_url": "https://kichunsung.github.io/feed.json",
+  "description": "🚀 My Life History",
+  "icon": "/app/immutable/assets/avatar.B_Klb3xB.png",
+  "favicon": "https://kichunsung.github.io/favicon.png",
+  "authors": [
+    {
+      "name": "GiCheon Seong(Ayaan)",
+      "url": "https://github.com/kichunsung",
+      "avatar": "/app/immutable/assets/avatar.B_Klb3xB.png"
+    }
+  ],
+  "language": "ko-KR",
+  "items": [
+    {
+      "id": "TIL",
+      "url": "https://kichunsung.github.io/TIL",
+      "date_published": "2024-05-10T14:46:45.035Z",
+      "date_modified": "2024-05-10T14:46:50.207Z",
+      "content_text": "TIL",
+      "content_html": "<h1 id=\"til\"><a href=\"#til\">TIL</a></h1>\n",
+      "tags": [
+        "Year-2024",
+        "Language-English"
+      ]
+    },
+    {
+      "id": "how-to-set-giscus-to-github-page",
+      "url": "https://kichunsung.github.io/how-to-set-giscus-to-github-page",
+      "title": "giscus 댓글 기능",
+      "summary": "giscus를 활용핫 댓글 기능 만들기",
+      "date_published": "2024-05-10T14:44:44.401Z",
+      "date_modified": "2024-05-10T14:44:44.402Z",
+      "tags": [
+        "blog",
+        "free-comment",
+        "giscus",
+        "Year-2024",
+        "Language-English"
+      ]
+    },
+    {
+      "id": "dependency-code-deploy-automation-with-gpt",
+      "url": "https://kichunsung.github.io/dependency-code-deploy-automation-with-gpt",
+      "title": "GPT와 함께 찾아본 디팬던시 코드 배포 자동화",
+      "date_published": "2024-05-10T14:44:43.181Z",
+      "date_modified": "2024-05-10T14:44:43.182Z",
+      "content_text": "상황\n\n현재 모노 레포를 운영 중에 많은 코드들과 test코드로 인해 빌드 시간이 점점 길어지고있다.\n\n해당 서비스 배포 전, 관련된 코드들이 무엇인지 찾고 그 코드들의 test code만 실행하여 빌드시간을 단축시켜보려고 한다.\n\nGPT에게 질문해보고 관련 답변으로 다시 한번 생각해보자!\n\n\nGPT에게 질문\n\n\n우리의 상황을 먼저 설명하자\n\n{@html String.raw`\n우리는 파이썬으로, 모노레포를 추구하고있어. \n여기에는 약 50개의 project와 각각의 프로젝트에 api, daemon worker(with kafka), batch worker 가 5~10개씩,  \nMSA 형태로 약 400개의 프로세스가 운영되고있는 서비스를 관리하고있어.\n또 배포를 위한 k8s manifest, 즉, deployment yaml이 있고, \n각 yaml에는 최종적으로 실행시키는 command가 항상 있어.\n\n이 커멘드를 활용하여,\n역으로 해당 deployment가 어떠한 코드들과 연관되어있는지를 추적하고, \n모노레포에서 특정 파이썬 코드가 추가/삭제/변경됨에 따라, \n어떠한 deployment를 업데이트 해야하는지를 알 수 있는 도구를 만들려고 해.\n\n혹은 이미 도구가 있다면 추천도 좋아.\n\n어떻게 해당문제를 접근하면 좋을까?`}\n\n\nGPT 답변\n\nChatGPT\n\n모노레포에서 여러 프로젝트를 관리하면서, 특정 파이썬 코드의 변경에 따라 영향을 받는 서비스(또는 deployment)를 식별하는 것은 효율적인\nCI/CD 파이프라인을 구축하는 데 있어 중요한 부분입니다. 여기에는 몇 가지 접근 방법이 있습니다:\n\n 1. 코드 기반의 의존성 추적\n 2. Deployment YAML과의 매핑\n 3. 변경 감지 자동화\n 4. 도구 활용\n 5. 사용자 정의 도구 개발 이러한 접근 방법을 통해, 코드 변경이 있을 때 필요한 서비스만 선택적으로 배포함으로써, 리소스를 절약하고 배포\n    시간을 단축할 수 있습니다. 여러분의 시스템과 프로세스에 가장 적합한 방법을 선택하고 필요에 따라 조정하여 적용하는 것이 중요합니다.\n\n\n다시 질문하자. 코드 디펜던시를 찾는 도구 추천.\n\n 1. ./projects/projectA/src/main.py 를 읽어 import문을 기반으로 연관된 모든 파일들의 목록을 찾는 도구를 개발\n    또는 이미 있는 도구를 추천해줘.\n\nChatGPT\n\n파이썬 파일에서 import 문을 기반으로 연관된 모든 파일을 찾는 작업은 의존성 분석에 해당합니다. 이를 수행할 수 있는 몇 가지 방법과\n도구를 소개합니다:\n\n 1. Python 스크립트 사용\n 2. Pydeps\n 3. Snakefood\n 4. Modulegraph 이 중에서 가장 적합한 도구나 방법을 선택하여 사용하면, 주어진 Python 파일과 연관된 모든 파일들의 목록을\n    효과적으로 찾을 수 있을 것입니다. 만약 자세한 구현 방법이나 사용 방법에 대해 더 알고 싶다면, 추가로 질문해 주세요.\n\n위 답변을 참고해서 모노 레포에서 효율적인 테스트 코드를 실행시키도록 개선해보자!",
+      "content_html": "<h1 id=\"\"><a href=\"#\">상황</a></h1>\n<p>현재 모노 레포를 운영 중에 많은 코드들과 test코드로 인해 빌드 시간이 점점 길어지고있다.</p>\n<p>해당 서비스 배포 전, 관련된 코드들이 무엇인지 찾고 그 코드들의 test code만 실행하여 빌드시간을 단축시켜보려고 한다.</p>\n<p>GPT에게 질문해보고 관련 답변으로 다시 한번 생각해보자!</p>\n<h1 id=\"gpt\"><a href=\"#gpt\">GPT에게 질문</a></h1>\n<h2 id=\"\"><a href=\"#\">우리의 상황을 먼저 설명하자</a></h2>\n<div class=\"code-block  \"><CodeCopy><pre><code class=\"language-bash\">{@html String.raw`<div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">우리는 파이썬으로, 모노레포를 추구하고있어. </div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">여기에는 약 <span class=\"token number\">50</span>개의 project와 각각의 프로젝트에 api, daemon worker<span class=\"token punctuation\">(</span>with kafka<span class=\"token punctuation\">)</span>, batch worker 가 <span class=\"token number\">5</span>~10개씩,  </div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">MSA 형태로 약 <span class=\"token number\">400</span>개의 프로세스가 운영되고있는 서비스를 관리하고있어.</div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">또 배포를 위한 k8s manifest, 즉, deployment yaml이 있고, </div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">각 yaml에는 최종적으로 실행시키는 command가 항상 있어.</div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\"></div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">이 커멘드를 활용하여,</div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">역으로 해당 deployment가 어떠한 코드들과 연관되어있는지를 추적하고, </div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">모노레포에서 특정 파이썬 코드가 추가/삭제/변경됨에 따라, </div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">어떠한 deployment를 업데이트 해야하는지를 알 수 있는 도구를 만들려고 해.</div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\"></div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">혹은 이미 도구가 있다면 추천도 좋아.</div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\"></div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">어떻게 해당문제를 접근하면 좋을까?</div></div>`}</code></pre></CodeCopy></div>\n<h2 id=\"gpt\"><a href=\"#gpt\">GPT 답변</a></h2>\n<p>ChatGPT</p>\n<p>모노레포에서 여러 프로젝트를 관리하면서, 특정 파이썬 코드의 변경에 따라 영향을 받는 서비스(또는 deployment)를 식별하는 것은 효율적인 CI/CD 파이프라인을 구축하는 데 있어 중요한 부분입니다. 여기에는 몇 가지 접근 방법이 있습니다:</p>\n<ol>\n<li>코드 기반의 의존성 추적</li>\n<li>Deployment YAML과의 매핑</li>\n<li>변경 감지 자동화</li>\n<li>도구 활용</li>\n<li>사용자 정의 도구 개발\n이러한 접근 방법을 통해, 코드 변경이 있을 때 필요한 서비스만 선택적으로 배포함으로써, 리소스를 절약하고 배포 시간을 단축할 수 있습니다. 여러분의 시스템과 프로세스에 가장 적합한 방법을 선택하고 필요에 따라 조정하여 적용하는 것이 중요합니다.</li>\n</ol>\n<h2 id=\"\"><a href=\"#\">다시 질문하자. 코드 디펜던시를 찾는 도구 추천.</a></h2>\n<ol>\n<li>./projects/projectA/src/main.py 를 읽어 import문을 기반으로 연관된 모든 파일들의 목록을 찾는 도구를 개발 또는 이미 있는 도구를 추천해줘.</li>\n</ol>\n<p>ChatGPT</p>\n<p>파이썬 파일에서 import 문을 기반으로 연관된 모든 파일을 찾는 작업은 의존성 분석에 해당합니다. 이를 수행할 수 있는 몇 가지 방법과 도구를 소개합니다:</p>\n<ol>\n<li>Python 스크립트 사용</li>\n<li>Pydeps</li>\n<li>Snakefood</li>\n<li>Modulegraph\n이 중에서 가장 적합한 도구나 방법을 선택하여 사용하면, 주어진 Python 파일과 연관된 모든 파일들의 목록을 효과적으로 찾을 수 있을 것입니다. 만약 자세한 구현 방법이나 사용 방법에 대해 더 알고 싶다면, 추가로 질문해 주세요.</li>\n</ol>\n<p>위 답변을 참고해서 모노 레포에서 효율적인 테스트 코드를 실행시키도록 개선해보자!</p>\n",
+      "tags": [
+        "GPT",
+        "cleancode",
+        "code depandency",
+        "CI/CD",
+        "mono repo",
+        "Year-2024",
+        "Language-English"
+      ]
+    },
+    {
+      "id": "vscode-not-found-git",
+      "url": "https://kichunsung.github.io/vscode-not-found-git",
+      "title": "[vscode] 등록된 소스제어 공급자가 없습니다.",
+      "date_published": "2024-05-10T14:44:41.718Z",
+      "date_modified": "2024-05-10T14:44:41.720Z",
+      "content_text": "vscode 등록된 소스 제어 공급자가 없습니다.\n\n애러가 종종 나곤한다. 처음에는 왜 나는지 알 수가 없어 이것저것 찾아보았다.\n\n\n\nvscode에 git이 활성화되어있지 않을 때 발생하는 것으로 확인했다.\n\n확장 > GIT을 검색하여 해당 모듈을 “사용”으로 변경.\n\n\n\n@builtin git\n\n이제 커밋 변경사항이 잘 보인다.\n\n",
+      "content_html": "<p>vscode 등록된 소스 제어 공급자가 없습니다. </p>\n<p>애러가 종종 나곤한다. 처음에는 왜 나는지 알 수가 없어 이것저것 찾아보았다.</p>\n<p><ImgZoom src=\"/vscode-not-found-git/0_Untitled.png\" alt=\"image\"></ImgZoom></p>\n<p>vscode에 git이 활성화되어있지 않을 때 발생하는 것으로 확인했다.</p>\n<p>확장 &gt; GIT을 검색하여 해당 모듈을 “사용”으로 변경.</p>\n<p><ImgZoom src=\"/vscode-not-found-git/1_Untitled.png\" alt=\"image\"></ImgZoom></p>\n<p>@builtin git</p>\n<p>이제 커밋 변경사항이 잘 보인다.</p>\n<p><ImgZoom src=\"/vscode-not-found-git/2_Untitled.png\" alt=\"image\"></ImgZoom></p>\n",
+      "tags": [
+        "vscode",
+        "git",
+        "Year-2024",
+        "Language-English"
+      ]
+    }
+  ]
+}

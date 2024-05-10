@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>https://kichunsung.github.io</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+    
+        <url>
+        <loc>https://kichunsung.github.io/TIL</loc>
+        <lastmod>2024-05-10T14:46:50.207Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
+        <loc>https://kichunsung.github.io/how-to-set-giscus-to-github-page</loc>
+        <lastmod>2024-05-10T14:44:44.402Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
+        <loc>https://kichunsung.github.io/dependency-code-deploy-automation-with-gpt</loc>
+        <lastmod>2024-05-10T14:44:43.182Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
+        <loc>https://kichunsung.github.io/vscode-not-found-git</loc>
+        <lastmod>2024-05-10T14:44:41.720Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
+        <loc>https://kichunsung.github.io/profile</loc>
+        <lastmod>2022-09-16T04:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+</urlset>
