@@ -16,49 +16,49 @@
   "theme_color": "white",
   "icons": [
     {
-      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.wQtD73Cr.png",
+      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.DubC4iQ9.png",
       "sizes": "48x48",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.wQtD73Cr.png",
+      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.DubC4iQ9.png",
       "sizes": "48x48",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.BySTWFyq.png",
+      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.DGRY93cy.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.BySTWFyq.png",
+      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.DGRY93cy.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.DarFfNRx.png",
+      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.kYL_GOOf.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.DarFfNRx.png",
+      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.kYL_GOOf.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.BR9uGlDR.png",
+      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.CSQvskKw.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.BR9uGlDR.png",
+      "src": "https://kichunsung.github.io/app/immutable/assets/avatar.CSQvskKw.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

@@ -7,29 +7,36 @@
     </url>
     
         <url>
-        <loc>https://kichunsung.github.io/TIL</loc>
-        <lastmod>2024-05-10T14:46:50.207Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-        </url>
-      
-        <url>
         <loc>https://kichunsung.github.io/how-to-set-giscus-to-github-page</loc>
-        <lastmod>2024-05-10T14:44:44.402Z</lastmod>
+        <lastmod>2024-05-11T15:39:33.174Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
         </url>
       
         <url>
         <loc>https://kichunsung.github.io/dependency-code-deploy-automation-with-gpt</loc>
-        <lastmod>2024-05-10T14:44:43.182Z</lastmod>
+        <lastmod>2024-05-11T15:39:33.174Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
         </url>
       
         <url>
         <loc>https://kichunsung.github.io/vscode-not-found-git</loc>
-        <lastmod>2024-05-10T14:44:41.720Z</lastmod>
+        <lastmod>2024-05-11T15:39:33.174Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
+        <loc>https://kichunsung.github.io/TIL</loc>
+        <lastmod>2024-05-11T15:39:33.173Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
+        <loc>https://kichunsung.github.io/hello-QWER</loc>
+        <lastmod>2022-09-16T04:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
         </url>
@@ -37,6 +44,27 @@
         <url>
         <loc>https://kichunsung.github.io/profile</loc>
         <lastmod>2022-09-16T04:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
+        <loc>https://kichunsung.github.io/about</loc>
+        <lastmod>2022-09-16T04:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
+        <loc>https://kichunsung.github.io/example</loc>
+        <lastmod>2023-05-01T12:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
+        <loc>https://kichunsung.github.io/quick-start</loc>
+        <lastmod>2022-09-15T13:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
         </url>
