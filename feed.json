@@ -16,6 +16,22 @@
   "language": "ko-KR",
   "items": [
     {
+      "id": "setting-ssh-file-permission",
+      "url": "https://naya-an-tech.github.io/setting-ssh-file-permission",
+      "title": "ssh 수동복사 권한 설정",
+      "date_published": "2024-06-03T13:59:18.748Z",
+      "date_modified": "2024-06-03T13:59:18.750Z",
+      "content_text": "SSH KEY 수동 복사 권한 설정\n\n가끔 서버접속 key들을 파일로 받을 때가 있다. (이런경우가 최대한 없길바란다…ㅎㅎ)\n\n디렉토리와 키파일의 권한이 적절하지않을 때 아래의 방법을 따라한다.\n\n 1. .ssh\n 2. 개인키(id_ed25519) 파일 권한 변경:\n 3. 공개키(id_ed25519.pub) 파일 권한 변경:\n\n권한 변경 후에는 다음과 같이 확인할 수 있다.\n\n{@html String.raw`\nls -l /home/user/.ssh`}\n\n출력 결과:\n\n{@html String.raw`\ntotal 8\n-rw------- 1 user user 411 May 14 13:53 id_ed25519\n-rw-r--r-- 1 user user  98 May 14 13:53 id_ed25519.pub`}\n\n이제 .ssh 디렉터리와 키 파일의 권한이 적절하게 설정되다. SSH 연결 시 개인키 파일의 권한이 너무 열려있으면 보안 위험이 있으므로\n주의해야 한다.\n\n\n등록\n\n그래도 key가 작동하지않으면 ssh key를 등록해주자.\n\n{@html String.raw`\neval \"$(ssh-agent -s)\"\nssh-add ~/.ssh/id_ed25519`}",
+      "content_html": "<h1 id=\"ssh-key\"><a href=\"#ssh-key\">SSH key 수동 복사 권한 설정</a></h1>\n<p>가끔 서버접속 key들을 파일로 받을 때가 있다. (이런경우가 최대한 없길바란다…ㅎㅎ)</p>\n<p>디렉토리와 키파일의 권한이 적절하지않을 때 아래의 방법을 따라한다.</p>\n<ol>\n<li>.ssh</li>\n<li>개인키(id_ed25519) 파일 권한 변경:</li>\n<li>공개키(id_ed25519.pub) 파일 권한 변경:</li>\n</ol>\n<p>권한 변경 후에는 다음과 같이 확인할 수 있다.</p>\n<div class=\"code-block  \"><CodeCopy><pre><code class=\"language-shell\">{@html String.raw`<div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\"><span class=\"token function\">ls</span> <span class=\"token parameter variable\">-l</span> /home/user/.ssh</div></div>`}</code></pre></CodeCopy></div>\n<p>출력 결과:</p>\n<div class=\"code-block  \"><CodeCopy><pre><code class=\"language-shell\">{@html String.raw`<div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">total <span class=\"token number\">8</span></div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">-rw------- <span class=\"token number\">1</span> user user <span class=\"token number\">411</span> May <span class=\"token number\">14</span> <span class=\"token number\">13</span>:53 id_ed25519</div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">-rw-r--r-- <span class=\"token number\">1</span> user user  <span class=\"token number\">98</span> May <span class=\"token number\">14</span> <span class=\"token number\">13</span>:53 id_ed25519.pub</div></div>`}</code></pre></CodeCopy></div>\n<p>이제 .ssh 디렉터리와 키 파일의 권한이 적절하게 설정되다. SSH 연결 시 개인키 파일의 권한이 너무 열려있으면 보안 위험이 있으므로 주의해야 한다.</p>\n<h1 id=\"\"><a href=\"#\">등록</a></h1>\n<p>그래도 key가 작동하지않으면 ssh key를 등록해주자.</p>\n<div class=\"code-block  \"><CodeCopy><pre><code class=\"language-shell\">{@html String.raw`<div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\"><span class=\"token builtin class-name\">eval</span> <span class=\"token string\">\"<span class=\"token variable\"><span class=\"token variable\">&#36;(</span>ssh-agent <span class=\"token parameter variable\">-s</span><span class=\"token variable\">)</span></span>\"</span></div></div><div class=\"code-line\"><div class=\"code-linenotation\"><span class=\"no-line-number\"></span><span class=\"no-line-diff\"></span></div><div class=\"code-content\">ssh-add ~/.ssh/id_ed25519</div></div>`}</code></pre></CodeCopy></div>\n",
+      "tags": [
+        "ubuntu",
+        "mac",
+        "ssh",
+        "Year-2024",
+        "Language-English"
+      ]
+    },
+    {
       "id": "how-to-set-giscus-to-github-page",
       "url": "https://naya-an-tech.github.io/how-to-set-giscus-to-github-page",
       "title": "giscus 댓글 기능",

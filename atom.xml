@@ -8,7 +8,7 @@
 <icon>https://naya-an-tech.github.io/favicon.png</icon>
 <link href="https://naya-an-tech.github.io"/>
 <link href="https://naya-an-tech.github.io/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-06-03T13:55:07.990Z</updated>
+<updated>2024-06-03T13:59:40.957Z</updated>
 <author>
   <name><![CDATA[GiCheon Seong(Ayaan)]]></name>
 </author>
@@ -26,8 +26,42 @@
 <category term="blog" scheme="https://naya-an-tech.github.io/?tags=blog" />
 <category term="free-comment" scheme="https://naya-an-tech.github.io/?tags=free-comment" />
 <category term="giscus" scheme="https://naya-an-tech.github.io/?tags=giscus" />
+<category term="ubuntu" scheme="https://naya-an-tech.github.io/?tags=ubuntu" />
+<category term="mac" scheme="https://naya-an-tech.github.io/?tags=mac" />
+<category term="ssh" scheme="https://naya-an-tech.github.io/?tags=ssh" />
 <category term="vscode" scheme="https://naya-an-tech.github.io/?tags=vscode" />
 <category term="git" scheme="https://naya-an-tech.github.io/?tags=git" />
+<entry>
+    <title type="html"><![CDATA[ssh 수동복사 권한 설정]]></title>
+    <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
+    <link href="https://naya-an-tech.github.io/setting-ssh-file-permission" />
+    <id>https://naya-an-tech.github.io/setting-ssh-file-permission</id>
+    <published>2024-06-03T13:59:18.748Z</published>
+    <updated>2024-06-03T13:59:18.750Z</updated>
+    <summary type="html"><![CDATA[undefined]]></summary>
+    <content type="html"><![CDATA[<h1 id="ssh-key"><a href="#ssh-key">SSH key 수동 복사 권한 설정</a></h1>
+<p>가끔 서버접속 key들을 파일로 받을 때가 있다. (이런경우가 최대한 없길바란다…ㅎㅎ)</p>
+<p>디렉토리와 키파일의 권한이 적절하지않을 때 아래의 방법을 따라한다.</p>
+<ol>
+<li>.ssh</li>
+<li>개인키(id_ed25519) 파일 권한 변경:</li>
+<li>공개키(id_ed25519.pub) 파일 권한 변경:</li>
+</ol>
+<p>권한 변경 후에는 다음과 같이 확인할 수 있다.</p>
+<div class="code-block  "><CodeCopy><pre><code class="language-shell">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">ls</span> <span class="token parameter variable">-l</span> /home/user/.ssh</div></div>`}</code></pre></CodeCopy></div>
+<p>출력 결과:</p>
+<div class="code-block  "><CodeCopy><pre><code class="language-shell">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">total <span class="token number">8</span></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">-rw------- <span class="token number">1</span> user user <span class="token number">411</span> May <span class="token number">14</span> <span class="token number">13</span>:53 id_ed25519</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">-rw-r--r-- <span class="token number">1</span> user user  <span class="token number">98</span> May <span class="token number">14</span> <span class="token number">13</span>:53 id_ed25519.pub</div></div>`}</code></pre></CodeCopy></div>
+<p>이제 .ssh 디렉터리와 키 파일의 권한이 적절하게 설정되다. SSH 연결 시 개인키 파일의 권한이 너무 열려있으면 보안 위험이 있으므로 주의해야 한다.</p>
+<h1 id=""><a href="#">등록</a></h1>
+<p>그래도 key가 작동하지않으면 ssh key를 등록해주자.</p>
+<div class="code-block  "><CodeCopy><pre><code class="language-shell">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token builtin class-name">eval</span> <span class="token string">"<span class="token variable"><span class="token variable">&#36;(</span>ssh-agent <span class="token parameter variable">-s</span><span class="token variable">)</span></span>"</span></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">ssh-add ~/.ssh/id_ed25519</div></div>`}</code></pre></CodeCopy></div>
+]]></content>
+    <category term="ubuntu" scheme="https://naya-an-tech.github.io/?tags=ubuntu" />
+<category term="mac" scheme="https://naya-an-tech.github.io/?tags=mac" />
+<category term="ssh" scheme="https://naya-an-tech.github.io/?tags=ssh" />
+<category term="Year-2024" scheme="https://naya-an-tech.github.io/?Year=2024" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?Language=English" />
+    </entry>
 <entry>
     <title type="html"><![CDATA[giscus 댓글 기능]]></title>
     <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
