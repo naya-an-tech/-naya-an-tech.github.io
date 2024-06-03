@@ -1,53 +1,53 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR">
-<id>https://kichunsung.github.io</id>
-<title><![CDATA[Gicheon Seong(Ayaan) Blog]]></title>
+<id>https://naya-an-tech.github.io</id>
+<title><![CDATA[Ayaan(NaYa) Tech Blog]]></title>
 <subtitle>
 <![CDATA[🚀 Ayaan - lucky Boy]]>
 </subtitle>
-<icon>https://kichunsung.github.io/favicon.png</icon>
-<link href="https://kichunsung.github.io"/>
-<link href="https://kichunsung.github.io/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-05-29T14:17:11.392Z</updated>
+<icon>https://naya-an-tech.github.io/favicon.png</icon>
+<link href="https://naya-an-tech.github.io"/>
+<link href="https://naya-an-tech.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+<updated>2024-06-03T13:55:07.990Z</updated>
 <author>
   <name><![CDATA[GiCheon Seong(Ayaan)]]></name>
 </author>
-<category term="Year-2022" scheme="https://kichunsung.github.io/?tags=tags-Year=2022" />
-<category term="Year-2024" scheme="https://kichunsung.github.io/?tags=tags-Year=2024" />
-<category term="Language-English" scheme="https://kichunsung.github.io/?tags=tags-Language=English" />
-<category term="GPT" scheme="https://kichunsung.github.io/?tags=GPT" />
-<category term="cleancode" scheme="https://kichunsung.github.io/?tags=cleancode" />
-<category term="code depandency" scheme="https://kichunsung.github.io/?tags=code%20depandency" />
-<category term="CI/CD" scheme="https://kichunsung.github.io/?tags=CI/CD" />
-<category term="mono repo" scheme="https://kichunsung.github.io/?tags=mono%20repo" />
-<category term="Markdown" scheme="https://kichunsung.github.io/?tags=Markdown" />
-<category term="Hello World" scheme="https://kichunsung.github.io/?tags=Hello%20World" />
-<category term="QWER" scheme="https://kichunsung.github.io/?tags=QWER" />
-<category term="blog" scheme="https://kichunsung.github.io/?tags=blog" />
-<category term="free-comment" scheme="https://kichunsung.github.io/?tags=free-comment" />
-<category term="giscus" scheme="https://kichunsung.github.io/?tags=giscus" />
-<category term="vscode" scheme="https://kichunsung.github.io/?tags=vscode" />
-<category term="git" scheme="https://kichunsung.github.io/?tags=git" />
+<category term="Year-2022" scheme="https://naya-an-tech.github.io/?tags=tags-Year=2022" />
+<category term="Year-2024" scheme="https://naya-an-tech.github.io/?tags=tags-Year=2024" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?tags=tags-Language=English" />
+<category term="GPT" scheme="https://naya-an-tech.github.io/?tags=GPT" />
+<category term="cleancode" scheme="https://naya-an-tech.github.io/?tags=cleancode" />
+<category term="code depandency" scheme="https://naya-an-tech.github.io/?tags=code%20depandency" />
+<category term="CI/CD" scheme="https://naya-an-tech.github.io/?tags=CI/CD" />
+<category term="mono repo" scheme="https://naya-an-tech.github.io/?tags=mono%20repo" />
+<category term="Markdown" scheme="https://naya-an-tech.github.io/?tags=Markdown" />
+<category term="Hello World" scheme="https://naya-an-tech.github.io/?tags=Hello%20World" />
+<category term="QWER" scheme="https://naya-an-tech.github.io/?tags=QWER" />
+<category term="blog" scheme="https://naya-an-tech.github.io/?tags=blog" />
+<category term="free-comment" scheme="https://naya-an-tech.github.io/?tags=free-comment" />
+<category term="giscus" scheme="https://naya-an-tech.github.io/?tags=giscus" />
+<category term="vscode" scheme="https://naya-an-tech.github.io/?tags=vscode" />
+<category term="git" scheme="https://naya-an-tech.github.io/?tags=git" />
 <entry>
     <title type="html"><![CDATA[giscus 댓글 기능]]></title>
     <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
-    <link href="https://kichunsung.github.io/how-to-set-giscus-to-github-page" />
-    <id>https://kichunsung.github.io/how-to-set-giscus-to-github-page</id>
+    <link href="https://naya-an-tech.github.io/how-to-set-giscus-to-github-page" />
+    <id>https://naya-an-tech.github.io/how-to-set-giscus-to-github-page</id>
     <published>2024-05-10T19:07:05.353Z</published>
     <updated>2024-05-11T15:39:33.174Z</updated>
     <summary type="html"><![CDATA[giscus를 활용핫 댓글 기능 만들기]]></summary>
     <content type="html"><![CDATA[]]></content>
-    <category term="blog" scheme="https://kichunsung.github.io/?tags=blog" />
-<category term="free-comment" scheme="https://kichunsung.github.io/?tags=free-comment" />
-<category term="giscus" scheme="https://kichunsung.github.io/?tags=giscus" />
-<category term="Year-2024" scheme="https://kichunsung.github.io/?Year=2024" />
-<category term="Language-English" scheme="https://kichunsung.github.io/?Language=English" />
+    <category term="blog" scheme="https://naya-an-tech.github.io/?tags=blog" />
+<category term="free-comment" scheme="https://naya-an-tech.github.io/?tags=free-comment" />
+<category term="giscus" scheme="https://naya-an-tech.github.io/?tags=giscus" />
+<category term="Year-2024" scheme="https://naya-an-tech.github.io/?Year=2024" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[GPT와 함께 찾아본 디팬던시 코드 배포 자동화]]></title>
     <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
-    <link href="https://kichunsung.github.io/dependency-code-deploy-automation-with-gpt" />
-    <id>https://kichunsung.github.io/dependency-code-deploy-automation-with-gpt</id>
+    <link href="https://naya-an-tech.github.io/dependency-code-deploy-automation-with-gpt" />
+    <id>https://naya-an-tech.github.io/dependency-code-deploy-automation-with-gpt</id>
     <published>2024-05-10T19:07:05.353Z</published>
     <updated>2024-05-11T15:39:33.174Z</updated>
     <summary type="html"><![CDATA[undefined]]></summary>
@@ -84,19 +84,19 @@
 </ol>
 <p>위 답변을 참고해서 모노 레포에서 효율적인 테스트 코드를 실행시키도록 개선해보자!</p>
 ]]></content>
-    <category term="GPT" scheme="https://kichunsung.github.io/?tags=GPT" />
-<category term="cleancode" scheme="https://kichunsung.github.io/?tags=cleancode" />
-<category term="code depandency" scheme="https://kichunsung.github.io/?tags=code%20depandency" />
-<category term="CI/CD" scheme="https://kichunsung.github.io/?tags=CI/CD" />
-<category term="mono repo" scheme="https://kichunsung.github.io/?tags=mono%20repo" />
-<category term="Year-2024" scheme="https://kichunsung.github.io/?Year=2024" />
-<category term="Language-English" scheme="https://kichunsung.github.io/?Language=English" />
+    <category term="GPT" scheme="https://naya-an-tech.github.io/?tags=GPT" />
+<category term="cleancode" scheme="https://naya-an-tech.github.io/?tags=cleancode" />
+<category term="code depandency" scheme="https://naya-an-tech.github.io/?tags=code%20depandency" />
+<category term="CI/CD" scheme="https://naya-an-tech.github.io/?tags=CI/CD" />
+<category term="mono repo" scheme="https://naya-an-tech.github.io/?tags=mono%20repo" />
+<category term="Year-2024" scheme="https://naya-an-tech.github.io/?Year=2024" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[[vscode] 등록된 소스제어 공급자가 없습니다.]]></title>
     <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
-    <link href="https://kichunsung.github.io/vscode-not-found-git" />
-    <id>https://kichunsung.github.io/vscode-not-found-git</id>
+    <link href="https://naya-an-tech.github.io/vscode-not-found-git" />
+    <id>https://naya-an-tech.github.io/vscode-not-found-git</id>
     <published>2024-05-10T19:07:05.352Z</published>
     <updated>2024-05-11T15:39:33.174Z</updated>
     <summary type="html"><![CDATA[undefined]]></summary>
@@ -110,29 +110,29 @@
 <p>이제 커밋 변경사항이 잘 보인다.</p>
 <p><ImgZoom src="/vscode-not-found-git/2_Untitled.png" alt="image"></ImgZoom></p>
 ]]></content>
-    <category term="vscode" scheme="https://kichunsung.github.io/?tags=vscode" />
-<category term="git" scheme="https://kichunsung.github.io/?tags=git" />
-<category term="Year-2024" scheme="https://kichunsung.github.io/?Year=2024" />
-<category term="Language-English" scheme="https://kichunsung.github.io/?Language=English" />
+    <category term="vscode" scheme="https://naya-an-tech.github.io/?tags=vscode" />
+<category term="git" scheme="https://naya-an-tech.github.io/?tags=git" />
+<category term="Year-2024" scheme="https://naya-an-tech.github.io/?Year=2024" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[undefined]]></title>
     <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
-    <link href="https://kichunsung.github.io/TIL" />
-    <id>https://kichunsung.github.io/TIL</id>
+    <link href="https://naya-an-tech.github.io/TIL" />
+    <id>https://naya-an-tech.github.io/TIL</id>
     <published>2024-05-10T19:07:05.352Z</published>
     <updated>2024-05-11T15:39:33.173Z</updated>
     <summary type="html"><![CDATA[undefined]]></summary>
     <content type="html"><![CDATA[<h1 id="til"><a href="#til">TIL</a></h1>
 ]]></content>
-    <category term="Year-2024" scheme="https://kichunsung.github.io/?Year=2024" />
-<category term="Language-English" scheme="https://kichunsung.github.io/?Language=English" />
+    <category term="Year-2024" scheme="https://naya-an-tech.github.io/?Year=2024" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Hello QWER 👋]]></title>
     <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
-    <link href="https://kichunsung.github.io/hello-QWER" />
-    <id>https://kichunsung.github.io/hello-QWER</id>
+    <link href="https://naya-an-tech.github.io/hello-QWER" />
+    <id>https://naya-an-tech.github.io/hello-QWER</id>
     <published>2022-09-16T14:00:00.000Z</published>
     <updated>2022-09-16T04:00:00.000Z</updated>
     <summary type="html"><![CDATA[🎉 Let's start a brand new awesome blog...]]></summary>
@@ -238,16 +238,16 @@ Photo by <a href="https://unsplash.com/@marcojodoin?utm_source=unsplash&utm_medi
 Photo by <a href="https://unsplash.com/@armgd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nicolas Gras</a> on <a href="https://unsplash.com/s/photos/bokeh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </ImgZoom>
 ]]></content>
-    <category term="Hello World" scheme="https://kichunsung.github.io/?tags=Hello%20World" />
-<category term="QWER" scheme="https://kichunsung.github.io/?tags=QWER" />
-<category term="Year-2022" scheme="https://kichunsung.github.io/?Year=2022" />
-<category term="Language-English" scheme="https://kichunsung.github.io/?Language=English" />
+    <category term="Hello World" scheme="https://naya-an-tech.github.io/?tags=Hello%20World" />
+<category term="QWER" scheme="https://naya-an-tech.github.io/?tags=QWER" />
+<category term="Year-2022" scheme="https://naya-an-tech.github.io/?Year=2022" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[About QWER]]></title>
     <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
-    <link href="https://kichunsung.github.io/profile" />
-    <id>https://kichunsung.github.io/profile</id>
+    <link href="https://naya-an-tech.github.io/profile" />
+    <id>https://naya-an-tech.github.io/profile</id>
     <published>2022-08-19T16:00:00.000Z</published>
     <updated>2022-09-16T04:00:00.000Z</updated>
     <summary type="html"><![CDATA[undefined]]></summary>
@@ -323,14 +323,14 @@ Photo by <a href="https://unsplash.com/@armgd?utm_source=unsplash&utm_medium=ref
 <h2 id="end"><a href="#end">👍 END</a></h2>
 <p>Thanks so much for interesting in <a href="https://github.com/kwchang0831/svelte-QWER" rel="external" >QWER</a>. Please try it out and let me know what you think 😊.</p>
 ]]></content>
-    <category term="Year-2022" scheme="https://kichunsung.github.io/?Year=2022" />
-<category term="Language-English" scheme="https://kichunsung.github.io/?Language=English" />
+    <category term="Year-2022" scheme="https://naya-an-tech.github.io/?Year=2022" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[About QWER]]></title>
     <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
-    <link href="https://kichunsung.github.io/about" />
-    <id>https://kichunsung.github.io/about</id>
+    <link href="https://naya-an-tech.github.io/about" />
+    <id>https://naya-an-tech.github.io/about</id>
     <published>2022-08-19T16:00:00.000Z</published>
     <updated>2022-09-16T04:00:00.000Z</updated>
     <summary type="html"><![CDATA[undefined]]></summary>
@@ -406,14 +406,14 @@ Photo by <a href="https://unsplash.com/@armgd?utm_source=unsplash&utm_medium=ref
 <h2 id="end"><a href="#end">👍 END</a></h2>
 <p>Thanks so much for interesting in <a href="https://github.com/kwchang0831/svelte-QWER" rel="external" >QWER</a>. Please try it out and let me know what you think 😊.</p>
 ]]></content>
-    <category term="Year-2022" scheme="https://kichunsung.github.io/?Year=2022" />
-<category term="Language-English" scheme="https://kichunsung.github.io/?Language=English" />
+    <category term="Year-2022" scheme="https://naya-an-tech.github.io/?Year=2022" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Example Post]]></title>
     <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
-    <link href="https://kichunsung.github.io/example" />
-    <id>https://kichunsung.github.io/example</id>
+    <link href="https://naya-an-tech.github.io/example" />
+    <id>https://naya-an-tech.github.io/example</id>
     <published>2022-08-08T16:00:00.000Z</published>
     <updated>2023-05-01T12:00:00.000Z</updated>
     <summary type="html"><![CDATA[📝 Showcase basic syntax of Markdown and HTML]]></summary>
@@ -575,15 +575,15 @@ return `<span style="color: goldenrod">Not me.</span>`
 <a href="#fnref:bignote">↩</a></li>
   </ol>
   ]]></content>
-    <category term="Markdown" scheme="https://kichunsung.github.io/?tags=Markdown" />
-<category term="Year-2022" scheme="https://kichunsung.github.io/?Year=2022" />
-<category term="Language-English" scheme="https://kichunsung.github.io/?Language=English" />
+    <category term="Markdown" scheme="https://naya-an-tech.github.io/?tags=Markdown" />
+<category term="Year-2022" scheme="https://naya-an-tech.github.io/?Year=2022" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Quick Start]]></title>
     <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
-    <link href="https://kichunsung.github.io/quick-start" />
-    <id>https://kichunsung.github.io/quick-start</id>
+    <link href="https://naya-an-tech.github.io/quick-start" />
+    <id>https://naya-an-tech.github.io/quick-start</id>
     <published>2022-08-07T16:00:00.000Z</published>
     <updated>2022-09-15T13:00:00.000Z</updated>
     <summary type="html"><![CDATA[✨ Just a QuickStart guide]]></summary>
@@ -623,8 +623,8 @@ return `<span style="color: goldenrod">Not me.</span>`
 <p>Here is our Documentation: <a href="https://docs-svelte-qwer.vercel.app/" rel="external" >https://docs-svelte-qwer.vercel.app/</a>.</p>
 <h2 id="end"><a href="#end">👍 END</a></h2>
 ]]></content>
-    <category term="QWER" scheme="https://kichunsung.github.io/?tags=QWER" />
-<category term="Year-2022" scheme="https://kichunsung.github.io/?Year=2022" />
-<category term="Language-English" scheme="https://kichunsung.github.io/?Language=English" />
+    <category term="QWER" scheme="https://naya-an-tech.github.io/?tags=QWER" />
+<category term="Year-2022" scheme="https://naya-an-tech.github.io/?Year=2022" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?Language=English" />
     </entry>
 </feed>

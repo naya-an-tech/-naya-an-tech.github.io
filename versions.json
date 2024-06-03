@@ -11,10 +11,10 @@
     }
   },
   "siteConfig": {
-    "url": "https://kichunsung.github.io",
-    "title": "Gicheon Seong(Ayaan) Blog",
+    "url": "https://naya-an-tech.github.io",
+    "title": "Ayaan(NaYa) Tech Blog",
     "subtitle": "🚀 Ayaan - lucky Boy",
-    "description": "🚀 My Life History",
+    "description": "🚀 Developer Life History",
     "lang": "ko-KR",
     "timeZone": "Asia/Seoul",
     "since": 2024,
@@ -44,10 +44,10 @@
     ]
   },
   "svelte-QWER": {
-    "name": "@kwchang0831/svelte-qwer",
+    "name": "tech-blog",
     "version": "1.0.0",
-    "author": "kwchang0831",
-    "homepage": "https://github.com/kwchang0831/svelte-qwer",
+    "author": "kichunsung",
+    "homepage": "https://naya-an-tech.github.io",
     "deps": {
       "@builder.io/partytown": "^0.10.1",
       "@changesets/cli": "^2.27.1",

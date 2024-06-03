@@ -1,11 +1,11 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Gicheon Seong(Ayaan) Blog",
-  "home_page_url": "https://kichunsung.github.io",
-  "feed_url": "https://kichunsung.github.io/feed.json",
-  "description": "🚀 My Life History",
+  "title": "Ayaan(NaYa) Tech Blog",
+  "home_page_url": "https://naya-an-tech.github.io",
+  "feed_url": "https://naya-an-tech.github.io/feed.json",
+  "description": "🚀 Developer Life History",
   "icon": "/app/immutable/assets/avatar.BOw8CoKk.png",
-  "favicon": "https://kichunsung.github.io/favicon.png",
+  "favicon": "https://naya-an-tech.github.io/favicon.png",
   "authors": [
     {
       "name": "GiCheon Seong(Ayaan)",
@@ -17,7 +17,7 @@
   "items": [
     {
       "id": "how-to-set-giscus-to-github-page",
-      "url": "https://kichunsung.github.io/how-to-set-giscus-to-github-page",
+      "url": "https://naya-an-tech.github.io/how-to-set-giscus-to-github-page",
       "title": "giscus 댓글 기능",
       "summary": "giscus를 활용핫 댓글 기능 만들기",
       "date_published": "2024-05-10T19:07:05.353Z",
@@ -32,7 +32,7 @@
     },
     {
       "id": "dependency-code-deploy-automation-with-gpt",
-      "url": "https://kichunsung.github.io/dependency-code-deploy-automation-with-gpt",
+      "url": "https://naya-an-tech.github.io/dependency-code-deploy-automation-with-gpt",
       "title": "GPT와 함께 찾아본 디팬던시 코드 배포 자동화",
       "date_published": "2024-05-10T19:07:05.353Z",
       "date_modified": "2024-05-11T15:39:33.174Z",
@@ -50,7 +50,7 @@
     },
     {
       "id": "vscode-not-found-git",
-      "url": "https://kichunsung.github.io/vscode-not-found-git",
+      "url": "https://naya-an-tech.github.io/vscode-not-found-git",
       "title": "[vscode] 등록된 소스제어 공급자가 없습니다.",
       "date_published": "2024-05-10T19:07:05.352Z",
       "date_modified": "2024-05-11T15:39:33.174Z",
@@ -65,7 +65,7 @@
     },
     {
       "id": "TIL",
-      "url": "https://kichunsung.github.io/TIL",
+      "url": "https://naya-an-tech.github.io/TIL",
       "date_published": "2024-05-10T19:07:05.352Z",
       "date_modified": "2024-05-11T15:39:33.173Z",
       "content_text": "TIL",
@@ -77,7 +77,7 @@
     },
     {
       "id": "hello-QWER",
-      "url": "https://kichunsung.github.io/hello-QWER",
+      "url": "https://naya-an-tech.github.io/hello-QWER",
       "title": "Hello QWER 👋",
       "summary": "🎉 Let's start a brand new awesome blog...",
       "image": "/hello-QWER/cover.jpg",
@@ -94,7 +94,7 @@
     },
     {
       "id": "example",
-      "url": "https://kichunsung.github.io/example",
+      "url": "https://naya-an-tech.github.io/example",
       "title": "Example Post",
       "summary": "📝 Showcase basic syntax of Markdown and HTML",
       "image": "/example/cover.jpg",
@@ -110,7 +110,7 @@
     },
     {
       "id": "quick-start",
-      "url": "https://kichunsung.github.io/quick-start",
+      "url": "https://naya-an-tech.github.io/quick-start",
       "title": "Quick Start",
       "summary": "✨ Just a QuickStart guide",
       "image": "/quick-start/cover.jpg",

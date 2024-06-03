@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kichunsung.github.io/sitemap.xml
+Sitemap: https://naya-an-tech.github.io/sitemap.xml
