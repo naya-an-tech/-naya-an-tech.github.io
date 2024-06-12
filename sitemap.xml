@@ -7,6 +7,13 @@
     </url>
     
         <url>
+        <loc>https://naya-an-tech.github.io/gitops-local-setting-with-act</loc>
+        <lastmod>2024-06-12T13:15:37.627Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
         <loc>https://naya-an-tech.github.io/es-dsl-tutorial-connection-index</loc>
         <lastmod>2024-06-09T12:35:05.559Z</lastmod>
         <changefreq>weekly</changefreq>
