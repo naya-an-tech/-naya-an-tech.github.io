@@ -7,6 +7,20 @@
     </url>
     
         <url>
+        <loc>https://naya-an-tech.github.io/use-alembic-to-already-operation-db</loc>
+        <lastmod>2024-06-15T16:21:46.690Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
+        <loc>https://naya-an-tech.github.io/sveltekit-load-data-optimization</loc>
+        <lastmod>2024-06-15T17:01:38.151Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
         <loc>https://naya-an-tech.github.io/gitops-local-setting-with-act</loc>
         <lastmod>2024-06-12T13:15:37.627Z</lastmod>
         <changefreq>weekly</changefreq>
