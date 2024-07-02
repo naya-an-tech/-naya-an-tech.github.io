@@ -8,7 +8,7 @@
 <icon>https://naya-an-tech.github.io/favicon.png</icon>
 <link href="https://naya-an-tech.github.io"/>
 <link href="https://naya-an-tech.github.io/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-06-28T10:53:27.494Z</updated>
+<updated>2024-07-02T16:20:56.090Z</updated>
 <author>
   <name><![CDATA[GiCheon Seong(Ayaan)]]></name>
 </author>
@@ -40,6 +40,12 @@
 <category term="ubuntu" scheme="https://naya-an-tech.github.io/?tags=ubuntu" />
 <category term="mac" scheme="https://naya-an-tech.github.io/?tags=mac" />
 <category term="ssh" scheme="https://naya-an-tech.github.io/?tags=ssh" />
+<category term="ssh-rsa" scheme="https://naya-an-tech.github.io/?tags=ssh-rsa" />
+<category term="m3mac" scheme="https://naya-an-tech.github.io/?tags=m3mac" />
+<category term="macbook" scheme="https://naya-an-tech.github.io/?tags=macbook" />
+<category term="맥북" scheme="https://naya-an-tech.github.io/?tags=%EB%A7%A5%EB%B6%81" />
+<category term="ssh애러" scheme="https://naya-an-tech.github.io/?tags=ssh%EC%95%A0%EB%9F%AC" />
+<category term="ssh접속실패" scheme="https://naya-an-tech.github.io/?tags=ssh%EC%A0%91%EC%86%8D%EC%8B%A4%ED%8C%A8" />
 <category term="svelte" scheme="https://naya-an-tech.github.io/?tags=svelte" />
 <category term="sveltekit" scheme="https://naya-an-tech.github.io/?tags=sveltekit" />
 <category term="스벨트" scheme="https://naya-an-tech.github.io/?tags=%EC%8A%A4%EB%B2%A8%ED%8A%B8" />
@@ -57,6 +63,38 @@
 <category term="파이썬" scheme="https://naya-an-tech.github.io/?tags=%ED%8C%8C%EC%9D%B4%EC%8D%AC" />
 <category term="vscode" scheme="https://naya-an-tech.github.io/?tags=vscode" />
 <category term="git" scheme="https://naya-an-tech.github.io/?tags=git" />
+<entry>
+    <title type="html"><![CDATA[old server ssh 접근 제한]]></title>
+    <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
+    <link href="https://naya-an-tech.github.io/ssh-connection-fail-on-m3-mac" />
+    <id>https://naya-an-tech.github.io/ssh-connection-fail-on-m3-mac</id>
+    <published>2024-07-02T16:19:56.974Z</published>
+    <updated>2024-07-02T16:19:56.975Z</updated>
+    <summary type="html"><![CDATA[오래된 서버 ssh 접근 제한]]></summary>
+    <content type="html"><![CDATA[<p>최신 맥에서 특정 서버로 접근하려할 때, 아래와 같은 애러를 만날 때가 있다.</p>
+<div class="code-block  "><CodeCopy><pre><code class="language-shell">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">ssh</span> user@192.168.0.100</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Unable to negotiate with <span class="token number">192.168</span>.10.106 port <span class="token number">22</span>: no matching <span class="token function">host</span> key <span class="token builtin class-name">type</span> found. Their offer: ssh-rsa,ssh-dss</div></div>`}</code></pre></CodeCopy></div>
+<p>이 오류는 SSH 클라이언트와 서버 간의 호스트 키 타입 불일치로 인해 발생한다. </p>
+<p>최신 SSH 클라이언트는 보안상의 이유로 기본적으로 ssh-rsa와 ssh-dss를 비활성화했기 때문이다.</p>
+<p>이 문제를 해결하기 위한 몇 가지 방법이 있다.</p>
+<h2 id="1. SSH 명령에 호스트 키 타입을 명시적으로 지정">1. SSH 명령에 호스트 키 타입을 명시적으로 지정</h2><div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">ssh</span> <span class="token parameter variable">-o</span> <span class="token assign-left variable">HostKeyAlgorithms</span><span class="token operator">=</span>+ssh-rsa user@192.168.10.106</div></div>`}</code></pre></CodeCopy></div>
+<h2 id="2. SSH 구성 파일에 호스트 키 타입 추가">2. SSH 구성 파일에 호스트 키 타입 추가</h2><p>~/.ssh/config 파일(없다면 생성)에 다음 내용을 추가합니다:</p>
+<div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Host <span class="token number">192.168</span>.10.106</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    HostKeyAlgorithms +ssh-rsa</div></div>`}</code></pre></CodeCopy></div>
+<h2 id="3.서버 측 SSH 구성 업데이트">3.서버 측 SSH 구성 업데이트</h2><p>가능하다면, 서버의 /etc/ssh/sshd_config 파일에서 더 안전한 키 타입(예: ed25519)을 추가하고 SSH 서비스를 재시작한다.</p>
+<h2 id="4. SSH 클라이언트 업데이트">4. SSH 클라이언트 업데이트</h2><p>최신 버전의 SSH 클라이언트는 더 안전한 알고리즘을 지원</p>
+<p><ImgZoom src="/ssh-connection-fail-on-m3-mac/0_Untitled.png" alt="image"></ImgZoom></p>
+<p>보안상의 이유로 옵션 3이나 4를 권장하지만, 즉시 서버에 접속해야 한다면 옵션 1이나 2를 사용할 수 있다. </p>
+<p>단, 이는 임시 해결책이며 장기적으로는 더 안전한 방법(3,4)를 고려해 보자.</p>
+]]></content>
+    <category term="ssh" scheme="https://naya-an-tech.github.io/?tags=ssh" />
+<category term="ssh-rsa" scheme="https://naya-an-tech.github.io/?tags=ssh-rsa" />
+<category term="m3mac" scheme="https://naya-an-tech.github.io/?tags=m3mac" />
+<category term="macbook" scheme="https://naya-an-tech.github.io/?tags=macbook" />
+<category term="맥북" scheme="https://naya-an-tech.github.io/?tags=%EB%A7%A5%EB%B6%81" />
+<category term="ssh애러" scheme="https://naya-an-tech.github.io/?tags=ssh%EC%95%A0%EB%9F%AC" />
+<category term="ssh접속실패" scheme="https://naya-an-tech.github.io/?tags=ssh%EC%A0%91%EC%86%8D%EC%8B%A4%ED%8C%A8" />
+<category term="Year-2024" scheme="https://naya-an-tech.github.io/?Year=2024" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?Language=English" />
+    </entry>
 <entry>
     <title type="html"><![CDATA[운영중인 데이터베이스 alembic 적용 시켜보기]]></title>
     <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
