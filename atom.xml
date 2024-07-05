@@ -8,7 +8,7 @@
 <icon>https://naya-an-tech.github.io/favicon.png</icon>
 <link href="https://naya-an-tech.github.io"/>
 <link href="https://naya-an-tech.github.io/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-07-02T16:20:56.090Z</updated>
+<updated>2024-07-05T06:02:00.762Z</updated>
 <author>
   <name><![CDATA[GiCheon Seong(Ayaan)]]></name>
 </author>
@@ -34,15 +34,19 @@
 <category term="로컬환경구축" scheme="https://naya-an-tech.github.io/?tags=%EB%A1%9C%EC%BB%AC%ED%99%98%EA%B2%BD%EA%B5%AC%EC%B6%95" />
 <category term="Hello World" scheme="https://naya-an-tech.github.io/?tags=Hello%20World" />
 <category term="QWER" scheme="https://naya-an-tech.github.io/?tags=QWER" />
+<category term="mac" scheme="https://naya-an-tech.github.io/?tags=mac" />
+<category term="m3mac" scheme="https://naya-an-tech.github.io/?tags=m3mac" />
+<category term="macbook" scheme="https://naya-an-tech.github.io/?tags=macbook" />
+<category term="command" scheme="https://naya-an-tech.github.io/?tags=command" />
+<category term="mac-info" scheme="https://naya-an-tech.github.io/?tags=mac-info" />
+<category term="macbook-info" scheme="https://naya-an-tech.github.io/?tags=macbook-info" />
+<category term="m3-macbook-info" scheme="https://naya-an-tech.github.io/?tags=m3-macbook-info" />
 <category term="blog" scheme="https://naya-an-tech.github.io/?tags=blog" />
 <category term="free-comment" scheme="https://naya-an-tech.github.io/?tags=free-comment" />
 <category term="giscus" scheme="https://naya-an-tech.github.io/?tags=giscus" />
 <category term="ubuntu" scheme="https://naya-an-tech.github.io/?tags=ubuntu" />
-<category term="mac" scheme="https://naya-an-tech.github.io/?tags=mac" />
 <category term="ssh" scheme="https://naya-an-tech.github.io/?tags=ssh" />
 <category term="ssh-rsa" scheme="https://naya-an-tech.github.io/?tags=ssh-rsa" />
-<category term="m3mac" scheme="https://naya-an-tech.github.io/?tags=m3mac" />
-<category term="macbook" scheme="https://naya-an-tech.github.io/?tags=macbook" />
 <category term="맥북" scheme="https://naya-an-tech.github.io/?tags=%EB%A7%A5%EB%B6%81" />
 <category term="ssh애러" scheme="https://naya-an-tech.github.io/?tags=ssh%EC%95%A0%EB%9F%AC" />
 <category term="ssh접속실패" scheme="https://naya-an-tech.github.io/?tags=ssh%EC%A0%91%EC%86%8D%EC%8B%A4%ED%8C%A8" />
@@ -63,6 +67,39 @@
 <category term="파이썬" scheme="https://naya-an-tech.github.io/?tags=%ED%8C%8C%EC%9D%B4%EC%8D%AC" />
 <category term="vscode" scheme="https://naya-an-tech.github.io/?tags=vscode" />
 <category term="git" scheme="https://naya-an-tech.github.io/?tags=git" />
+<entry>
+    <title type="html"><![CDATA[mac 정보 확인하기]]></title>
+    <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>
+    <link href="https://naya-an-tech.github.io/how-to-get-mac-info-with-command" />
+    <id>https://naya-an-tech.github.io/how-to-get-mac-info-with-command</id>
+    <published>2024-07-05T06:01:36.338Z</published>
+    <updated>2024-07-05T06:01:36.339Z</updated>
+    <summary type="html"><![CDATA[mac 정보가 궁금할 때 확인하는 방법]]></summary>
+    <content type="html"><![CDATA[<p>Mac OS에서 CLI를 통해 시스템 정보를 얻을 수 있는 여러 명령어가 있습니다. </p>
+<p>다음은 주요 정보를 얻기 위한 명령어들입니다</p>
+<ol>
+<li>OS 정보:</li>
+<li>시스템 개요:</li>
+<li>CPU 정보:</li>
+<li>RAM 정보:</li>
+<li>디스크 정보:</li>
+<li>전체 시스템 정보를 한 번에 보기:</li>
+<li>실시간 시스템 모니터링:
+<ImgZoom src="/how-to-get-mac-info-with-command/0_Untitled.png" alt="image"></ImgZoom></li>
+</ol>
+<p>이러한 명령어들을 조합하여 사용하면 Mac OS의 상세한 시스템 정보를 CLI를 통해 얻을 수 있습니다. </p>
+]]></content>
+    <category term="mac" scheme="https://naya-an-tech.github.io/?tags=mac" />
+<category term="m3mac" scheme="https://naya-an-tech.github.io/?tags=m3mac" />
+<category term="macbook" scheme="https://naya-an-tech.github.io/?tags=macbook" />
+<category term="local-setting" scheme="https://naya-an-tech.github.io/?tags=local-setting" />
+<category term="command" scheme="https://naya-an-tech.github.io/?tags=command" />
+<category term="mac-info" scheme="https://naya-an-tech.github.io/?tags=mac-info" />
+<category term="macbook-info" scheme="https://naya-an-tech.github.io/?tags=macbook-info" />
+<category term="m3-macbook-info" scheme="https://naya-an-tech.github.io/?tags=m3-macbook-info" />
+<category term="Year-2024" scheme="https://naya-an-tech.github.io/?Year=2024" />
+<category term="Language-English" scheme="https://naya-an-tech.github.io/?Language=English" />
+    </entry>
 <entry>
     <title type="html"><![CDATA[old server ssh 접근 제한]]></title>
     <author><name><![CDATA[GiCheon Seong(Ayaan)]]></name></author>

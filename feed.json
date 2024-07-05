@@ -16,6 +16,29 @@
   "language": "ko-KR",
   "items": [
     {
+      "id": "how-to-get-mac-info-with-command",
+      "url": "https://naya-an-tech.github.io/how-to-get-mac-info-with-command",
+      "title": "mac 정보 확인하기",
+      "summary": "mac 정보가 궁금할 때 확인하는 방법",
+      "image": "/how-to-get-mac-info-with-command/cover.jpg",
+      "date_published": "2024-07-05T06:01:36.338Z",
+      "date_modified": "2024-07-05T06:01:36.339Z",
+      "content_text": "Mac OS에서 CLI를 통해 시스템 정보를 얻을 수 있는 여러 명령어가 있습니다.\n\n다음은 주요 정보를 얻기 위한 명령어들입니다\n\n 1. OS 정보:\n 2. 시스템 개요:\n 3. CPU 정보:\n 4. RAM 정보:\n 5. 디스크 정보:\n 6. 전체 시스템 정보를 한 번에 보기:\n 7. 실시간 시스템 모니터링:\n\n이러한 명령어들을 조합하여 사용하면 Mac OS의 상세한 시스템 정보를 CLI를 통해 얻을 수 있습니다.",
+      "content_html": "<p>Mac OS에서 CLI를 통해 시스템 정보를 얻을 수 있는 여러 명령어가 있습니다. </p>\n<p>다음은 주요 정보를 얻기 위한 명령어들입니다</p>\n<ol>\n<li>OS 정보:</li>\n<li>시스템 개요:</li>\n<li>CPU 정보:</li>\n<li>RAM 정보:</li>\n<li>디스크 정보:</li>\n<li>전체 시스템 정보를 한 번에 보기:</li>\n<li>실시간 시스템 모니터링:\n<ImgZoom src=\"/how-to-get-mac-info-with-command/0_Untitled.png\" alt=\"image\"></ImgZoom></li>\n</ol>\n<p>이러한 명령어들을 조합하여 사용하면 Mac OS의 상세한 시스템 정보를 CLI를 통해 얻을 수 있습니다. </p>\n",
+      "tags": [
+        "mac",
+        "m3mac",
+        "macbook",
+        "local-setting",
+        "command",
+        "mac-info",
+        "macbook-info",
+        "m3-macbook-info",
+        "Year-2024",
+        "Language-English"
+      ]
+    },
+    {
       "id": "ssh-connection-fail-on-m3-mac",
       "url": "https://naya-an-tech.github.io/ssh-connection-fail-on-m3-mac",
       "title": "old server ssh 접근 제한",
